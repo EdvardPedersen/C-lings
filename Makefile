@@ -5,7 +5,8 @@ all: \
 	problems/002_include.o \
 	problems/003_unsigned.o \
     problems/004_const.o \
-    problems/005_variables.o
+    problems/005_variables.o \
+    problems/006_conditions.o
 
 problems/%.o: $(wildcard problems/*.c)
 	@echo "Compiling $(basename $@)"
