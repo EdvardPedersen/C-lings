@@ -1,9 +1,10 @@
 CC=gcc
 
 all: \
-	problems/001.o \
-	problems/002.o \
-	problems/003.o
+	problems/001_hello.o \
+	problems/002_include.o \
+	problems/003_unsigned.o \
+    problems/004_const.o
 
 problems/%.o: $(wildcard problems/*.c)
 	@echo "Compiling $(basename $@)"
