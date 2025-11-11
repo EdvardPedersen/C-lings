@@ -2,7 +2,7 @@
  * We have created a program for calculating fibonacci
  * numbers, which is a sequence of numbers where each number
  * is the sum of the two preceeding numbers, starting with
- * 1 and 1.
+ * 0 and 1.
  *
  * Since we want to have some idea of what is going on as
  * we compute the numbers, we have created a function
@@ -22,7 +22,7 @@ int my_function(int first, int second) {
 }
 
 int main() {
-    int a = 1;
+    int a = 0;
     int b = 1;
     while(b < 100) {
         int c = my_function(a, b);
