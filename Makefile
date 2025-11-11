@@ -12,7 +12,8 @@ all: \
 	problems/009_types2.o \
 	problems/010_while.o \
 	problems/011_for.o \
-	problems/012_function.o
+	problems/012_function.o \
+	problems/013_array.o
 
 problems/%.o: $(wildcard problems/*.c)
 	@echo "Compiling $(basename $@)"
