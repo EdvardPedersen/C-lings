@@ -1,6 +1,6 @@
 CC=gcc
 
-all: \
+#all: \
 	problems/001_hello.o \
 	problems/002_include.o \
 	problems/003_unsigned.o \
@@ -11,6 +11,8 @@ all: \
 	problems/008_types.o \
 	problems/009_types2.o \
 	problems/010_while.o
+
+all: problems/011_for.o
 
 problems/%.o: $(wildcard problems/*.c)
 	@echo "Compiling $(basename $@)"
