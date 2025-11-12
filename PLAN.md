@@ -7,3 +7,4 @@ bitwise operations
 logical operations
 runtime memory allocation
 heap and stack
+goto

@@ -14,7 +14,8 @@ all: \
 	problems/011_for.o \
 	problems/012_function.o \
 	problems/013_array.o \
-	problems/014_struct.o
+	problems/014_struct.o \
+    problems/015_goto.o
 
 problems/%.o: $(wildcard problems/*.c)
 	@echo "Compiling $(basename $@)"
