@@ -1,7 +1,7 @@
 CC=gcc
 
 all: \
-	problems/001_hello.o \
+	problems/001_hello.o
 	problems/002_include.o \
 	problems/003_unsigned.o \
     problems/004_const.o \
@@ -15,15 +15,17 @@ all: \
 	problems/012_function.o \
 	problems/013_array.o \
 	problems/014_struct.o \
-    problems/015_goto.o
+    problems/015_goto.o \
+	problems/016_bitwise.o \
+	problems/032_bitwise.o
 
 problems/%.o: $(wildcard problems/*.c)
 	@echo "Compiling $(basename $@)"
-	@$(CC) $(basename $@).c -o $(basename $@).o -fsanitize=undefined -Werror -Wall -std=c23 || (echo "$(basename $@) did not compile successfully!"; exit 1)
+	@$(CC) $(basename $@).c -o $(basename $@).o -fsanitize=undefined -Werror -Wall -std=c2x || (echo "$(basename $@) did not compile successfully!"; exit 1)
 	@echo "Running $(basename $@)"
 	@timeout --preserve-status 3 ./$(basename $@).o > current_output 2>&1 || (echo "$(basename $@) did not run successfully!"; rm $(basename $@).o; exit 1)
 	@echo "Comparing output from $(basename $@)"
 	@diff current_output result/$(basename $@) || (echo "The output of $(basename $@) is incorrect!"; rm $(basename $@).o; exit 1)
 
 clean:
-	rm problems/*.o
+	rm -f problems/*.o current_output
