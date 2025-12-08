@@ -1,7 +1,7 @@
 CC=gcc
 
 all: \
-	problems/001_hello.o
+	problems/001_hello.o \
 	problems/002_include.o \
 	problems/003_unsigned.o \
     problems/004_const.o \
