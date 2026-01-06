@@ -2,7 +2,7 @@ CC=gcc
 
 all: $(patsubst %.c,%.o,$(wildcard problems/*.c))
 
-problems/%.o: $(wildcard problems/*.c)
+problems/%.o: problems/%.c
 	@echo "Compiling $(basename $@)"
 	@$(CC) $(basename $@).c -o $(basename $@).o -fsanitize=undefined -Werror -Wall -std=c23 || (echo "$(basename $@) did not compile successfully!"; exit 1)
 	@echo "Running $(basename $@)"
