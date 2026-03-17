@@ -1,5 +1,6 @@
 hello.c
 include.c
+braces.c
 unsigned.c
 const.c
 variables.c
