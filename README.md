@@ -12,4 +12,5 @@ gcc and make are required.
 
 - Add file to problems (without prefix)
 - Add file to order
+- Add expected output in result/problems
 - Run fix-order.py
