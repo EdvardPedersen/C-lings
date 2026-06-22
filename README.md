@@ -7,3 +7,9 @@ To start, run `make` in the root directory, and you can start fixing the problem
 ## Requirements
 
 gcc and make are required.
+
+## Adding a new problem
+
+- Add file to problems (without prefix)
+- Add file to order
+- Run fix-order.py
