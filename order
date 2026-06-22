@@ -10,6 +10,7 @@ types.c
 types2.c
 while.c
 for.c
+braces2.c
 function.c
 array.c
 struct.c
