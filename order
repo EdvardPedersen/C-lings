@@ -19,3 +19,4 @@ struct.c
 goto.c
 bitwise.c
 bitwise2.c
+segments.c
