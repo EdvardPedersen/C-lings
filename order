@@ -12,6 +12,7 @@ while.c
 for.c
 braces2.c
 function.c
+braces3.c
 array.c
 struct.c
 goto.c
