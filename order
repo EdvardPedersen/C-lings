@@ -18,6 +18,7 @@ array.c
 array_decay.c
 struct.c
 goto.c
+switch1.c
 bitwise.c
 bitwise2.c
 segments.c
