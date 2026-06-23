@@ -15,6 +15,7 @@ braces2.c
 function.c
 braces3.c
 array.c
+array_decay.c
 struct.c
 goto.c
 bitwise.c
