@@ -10,6 +10,7 @@ types.c
 types2.c
 while.c
 for.c
+scope.c
 braces2.c
 function.c
 braces3.c
