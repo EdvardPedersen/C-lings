@@ -25,3 +25,4 @@ switch1.c
 bitwise.c
 bitwise2.c
 segments.c
+leak.c
