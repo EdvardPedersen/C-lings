@@ -25,4 +25,5 @@ switch1.c
 bitwise.c
 bitwise2.c
 segments.c
+malloc.c
 leak.c
