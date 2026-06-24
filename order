@@ -14,6 +14,8 @@ scope.c
 braces2.c
 function.c
 braces3.c
+pointer1.c
+pointer2.c
 array.c
 array_decay.c
 struct.c
