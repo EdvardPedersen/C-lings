@@ -1,6 +1,7 @@
 hello.c
 include.c
 braces.c
+semicolon.c
 unsigned.c
 const.c
 variables.c
