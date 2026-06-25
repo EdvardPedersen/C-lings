@@ -5,6 +5,8 @@ semicolon.c
 unsigned.c
 const.c
 variables.c
+format-specifiers.c
+format-specifiers2.c
 conditions.c
 conditions2.c
 types.c
