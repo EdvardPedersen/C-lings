@@ -13,6 +13,7 @@ while.c
 for.c
 scope.c
 braces2.c
+zero.c
 function.c
 braces3.c
 pointer1.c
