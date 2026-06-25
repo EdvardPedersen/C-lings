@@ -18,6 +18,7 @@ braces2.c
 zero.c
 function.c
 braces3.c
+varargs.c
 pointer1.c
 pointer2.c
 array.c
