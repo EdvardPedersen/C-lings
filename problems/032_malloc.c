@@ -1,10 +1,11 @@
-/* When creating an array we are pushing the elements in the correct order on
- * the stack and then we save the pointer to the first element. Each function
- * has its own stack, and a function can't access the stack to a function it has
- * called. If a function want save data that caller function needs access to,
- * then it can use 'malloc'. 'malloc' is a function that takes the number of
- * bytes you need as an argument. This function will allocate memory, that will
- * persist until you call free.
+/* When creating an array the elements of the elements of the array gets pushed
+ * onto the stack and then the pointer to the first element gets saved in the
+ * array variable. Each function has its own stack, and a function can't access
+ * the stack to a function it has called. If a function want save data that
+ * the caller function needs access to, then it can use 'malloc'. 'malloc' takes
+ * the number of bytes of memory you need as an argument. This function will
+ * allocate memory and return a pointer to the start of this memory. This memory
+ * will persist until you call free.
  *
  * There also exists another version of 'malloc' called 'calloc'. 'calloc' takes
  * two arguments, number of elements and size of each element. 'calloc' will
