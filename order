@@ -32,3 +32,4 @@ strings.c
 segments.c
 malloc.c
 leak.c
+null-pointer.c
