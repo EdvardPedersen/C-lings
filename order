@@ -24,6 +24,7 @@ goto.c
 switch1.c
 bitwise.c
 bitwise2.c
+strings.c
 segments.c
 malloc.c
 leak.c
