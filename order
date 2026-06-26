@@ -34,3 +34,4 @@ malloc.c
 leak.c
 free.c
 null-pointer.c
+null-pointer2.c
