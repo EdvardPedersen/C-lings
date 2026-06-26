@@ -22,8 +22,12 @@ if __name__ == "__main__":
             result_target = f"result/{move_target[:-2]}"
             match_source = f"problems/[0-9][0-9][0-9]_{file.strip()}"
             source_files = glob.glob(match_source)
+            match_source = f"problems/{file.strip()}"
+            source_files += glob.glob(match_source)
             match_stdout = f"result/problems/[0-9][0-9][0-9]_{file.strip()[:-2]}"
             stdout_files = glob.glob(match_stdout)
+            match_stdout = f"result/problems/{file.strip()[:-2]}"
+            stdout_files += glob.glob(match_stdout)
             if len(source_files) == 1 and len(stdout_files) == 1:
                 if source_files[0] != move_target:
                     print(f"{source_files[0]} -> {move_target}, ", end="")
