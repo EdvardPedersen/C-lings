@@ -24,6 +24,7 @@ pointer2.c
 array.c
 array_decay.c
 struct.c
+struct-pointer.c
 goto.c
 switch1.c
 bitwise.c
