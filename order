@@ -33,5 +33,6 @@ segments.c
 malloc.c
 leak.c
 free.c
+void-pointer.c
 null-pointer.c
 null-pointer2.c
