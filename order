@@ -16,6 +16,7 @@ types.c
 types2.c
 while.c
 for.c
+for2.c
 scope.c
 braces2.c
 zero.c
