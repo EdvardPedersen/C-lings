@@ -26,6 +26,7 @@ varargs.c
 pointer1.c
 pointer2.c
 array.c
+array2.c
 array_decay.c
 struct.c
 struct-pointer.c
