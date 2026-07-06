@@ -9,6 +9,9 @@ format-specifiers.c
 format-specifiers2.c
 conditions.c
 conditions2.c
+conditions3.c
+conditions4.c
+conditions5.c
 types.c
 types2.c
 while.c
