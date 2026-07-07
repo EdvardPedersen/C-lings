@@ -14,6 +14,7 @@ conditions4.c
 conditions5.c
 types.c
 types2.c
+casting.c
 while.c
 for.c
 for2.c
