@@ -17,6 +17,7 @@ types2.c
 while.c
 for.c
 for2.c
+loop-control.c
 fizzbuzz.c
 scope.c
 braces2.c
