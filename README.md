@@ -2,7 +2,9 @@
 
 This project contains many small, and broken programs. Your job is to fix them all!
 
-To start, run `make` in the root directory, and you can start fixing the problems in the problems directory.
+To start you first need to run `make init`(run this only once), after that you can run `make`. The code you need to change will be in the problems folder.
+
+You can reset your progress with `make reset`
 
 ## Requirements
 
@@ -10,7 +12,6 @@ gcc and make are required.
 
 ## Adding a new problem
 
-- Add file to problems (without prefix)
+- Add file to src/problems (without prefix)
 - Add file to order
-- Add expected output in result/problems
-- Run fix-order.py
+- Add expected output in src/results (without prefix)
