@@ -1,16 +1,12 @@
 /*
- * One needs to careful not to give a variable the same name as a function.
+ * You can't call a variable a type name.
  */
-
 #include <stdio.h>
 
-void cool_name() {
-  printf("Cool function\n");
-  return;
-}
-
 int main() {
-  int cool_name = 1;
-  printf("%d\n", cool_name);
-  cool_name();
+  int char = 65;
+
+  // Fun fact if you print an int with the char format specifier it will print
+  // the ascii character that coresponds to that number
+  printf("65 = %c\n", char);
 }
