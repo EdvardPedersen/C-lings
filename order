@@ -37,6 +37,7 @@ array.c
 array2.c
 array_decay.c
 struct.c
+struct2.c
 struct-pointer.c
 goto.c
 switch1.c
