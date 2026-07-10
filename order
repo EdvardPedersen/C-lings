@@ -48,6 +48,7 @@ switch1.c
 bitwise.c
 bitwise2.c
 strings.c
+types3.c
 segments.c
 malloc.c
 leak.c
