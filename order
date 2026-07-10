@@ -8,6 +8,7 @@ variables.c
 variable-names.c
 macro.c
 macro2.c
+macro3.c
 format-specifiers.c
 format-specifiers2.c
 variable-names2.c
