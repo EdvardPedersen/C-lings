@@ -5,7 +5,7 @@
  *
  * Most machines uses something called little endian. This means that bytes of
  * for exampel a int will be stored in the opposite order of what we read them.
- * E.G: 0x0102 will be stored 0x01, and then 0x02 in memory.
+ * E.G: 0x0102 will be stored 0x02, and then 0x01 in memory.
  *
  * Tips: 2 didgits in the hexadecimal system is a byte, and 0x is the prefix for
  * hexadecimal number in C
