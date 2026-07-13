@@ -53,6 +53,7 @@ segments.c
 malloc.c
 leak.c
 free.c
+realloc.c
 memcopy.c
 void-pointer.c
 null-pointer.c
