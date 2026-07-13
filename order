@@ -41,6 +41,7 @@ array.c
 array2.c
 array_decay.c
 pointer-arithmetic.c
+pointer-arithmetic2.c
 struct.c
 struct2.c
 struct-pointer.c
