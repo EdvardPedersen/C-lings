@@ -7,6 +7,7 @@ const.c
 variables.c
 variables2.c
 variable-names.c
+operators.c
 macro.c
 macro2.c
 macro3.c
