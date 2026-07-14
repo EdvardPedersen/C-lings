@@ -47,6 +47,7 @@ pointer-arithmetic2.c
 struct.c
 struct2.c
 struct-pointer.c
+union-enum.c
 goto.c
 switch1.c
 bitwise.c
