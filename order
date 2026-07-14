@@ -5,6 +5,7 @@ semicolon.c
 unsigned.c
 const.c
 variables.c
+variables2.c
 variable-names.c
 macro.c
 macro2.c
