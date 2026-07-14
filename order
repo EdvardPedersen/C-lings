@@ -52,6 +52,7 @@ switch1.c
 bitwise.c
 bitwise2.c
 strings.c
+strings2.c
 types3.c
 for3.c
 segments.c
