@@ -32,6 +32,7 @@ scope.c
 braces2.c
 zero.c
 function.c
+main-function.c
 recursion.c
 variable-names3.c
 braces3.c
