@@ -15,8 +15,9 @@
 
 int test_value(int value) {
   srand(5);
-  if (rand() % 50 == value)
+  if (rand() % 50 == value) {
     return 0;
+  }
   return -1;
 }
 
