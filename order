@@ -38,11 +38,11 @@ variable-names3.c
 braces3.c
 braces4.c
 varargs.c
-pointer1.c
+pointer.c
 pointer2.c
 array.c
 array2.c
-array_decay.c
+array-decay.c
 pointer-arithmetic.c
 pointer-arithmetic2.c
 struct.c
@@ -50,7 +50,7 @@ struct2.c
 struct-pointer.c
 union-enum.c
 goto.c
-switch1.c
+switch.c
 switch2.c
 bitwise.c
 bitwise2.c
