@@ -25,6 +25,7 @@ types2.c
 random.c
 casting.c
 float.c
+float2.c
 while.c
 for.c
 for2.c
