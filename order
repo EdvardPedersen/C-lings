@@ -51,6 +51,7 @@ struct-pointer.c
 union-enum.c
 goto.c
 switch1.c
+switch2.c
 bitwise.c
 bitwise2.c
 strings.c
