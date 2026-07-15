@@ -59,6 +59,7 @@ bitwise.c
 bitwise2.c
 strings.c
 strings2.c
+converting.c
 types3.c
 for3.c
 segments.c
