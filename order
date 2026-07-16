@@ -8,6 +8,7 @@ variables.c
 variables2.c
 variable-names.c
 operators.c
+operators2.c
 macro.c
 macro2.c
 macro3.c
