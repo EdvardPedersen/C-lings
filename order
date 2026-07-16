@@ -30,6 +30,7 @@ float.c
 float2.c
 while.c
 while2.c
+while3.c
 for.c
 for2.c
 loop-control.c
