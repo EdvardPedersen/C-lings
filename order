@@ -29,6 +29,7 @@ casting.c
 float.c
 float2.c
 while.c
+while2.c
 for.c
 for2.c
 loop-control.c
