@@ -76,6 +76,7 @@ leak.c
 free.c
 realloc.c
 memcopy.c
+linked-list.c
 void-pointer.c
 null-pointer.c
 null-pointer2.c
