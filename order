@@ -65,6 +65,7 @@ bitwise2.c
 strings.c
 strings2.c
 strings3.c
+strings4.c
 converting.c
 types3.c
 for3.c
