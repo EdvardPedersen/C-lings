@@ -22,6 +22,7 @@ conditions2.c
 conditions3.c
 conditions4.c
 conditions5.c
+ternary.c
 types.c
 types2.c
 random.c
