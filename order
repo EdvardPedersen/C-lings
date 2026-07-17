@@ -66,6 +66,7 @@ strings.c
 strings2.c
 strings3.c
 strings4.c
+strings5.c
 converting.c
 types3.c
 for3.c
