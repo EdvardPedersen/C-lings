@@ -38,6 +38,7 @@ for2.c
 loop-control.c
 fizzbuzz.c
 scope.c
+global.c
 braces2.c
 zero.c
 function.c
