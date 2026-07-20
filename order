@@ -75,6 +75,7 @@ converting.c
 types3.c
 for3.c
 segments.c
+static.c
 malloc.c
 leak.c
 free.c
