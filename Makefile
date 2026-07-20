@@ -17,7 +17,7 @@ $(BUILD)/%.o: problems/%.c
 	@echo "Compiling $(basename $@)"
 	@$(CC) $< -o $@ -Iincludes -fsanitize=undefined -Werror -Wall -std=c23 || (echo "$(basename $@) did not compile successfully!"; exit 1)
 	@echo "Running $(basename $@)"
-	@timeout --preserve-status 3 $@ > current_output 2>&1 || (cat current_output; echo "$(basename $@) did not run successfully!"; rm $@; exit 1)
+	@timeout --preserve-status 3 $@ Hello World > current_output 2>&1 || (cat current_output; echo "$(basename $@) did not run successfully!"; rm $@; exit 1)
 	@echo "Comparing output from $(basename $@)"
 	@diff current_output src/results/$(word 2, $(subst _, , $(basename $(notdir $@)))) || (echo "The output of $(basename $@) is incorrect!"; rm $@; exit 1)
 
