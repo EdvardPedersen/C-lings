@@ -56,6 +56,7 @@ array.c
 array2.c
 array3.c
 array-decay.c
+pointer-pointer.c
 pointer-arithmetic.c
 pointer-arithmetic2.c
 pointer-arithmetic3.c
