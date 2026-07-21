@@ -8,11 +8,6 @@
  *
  * You can also have an array of pointers by declaring it like so
  * 'type *name[num];'
- *
- * Remember that without an initialization a pointer (and pointer to pointer)
- * won't have defined address (in some cases it will be zero, but there are no
- * gurantees for this). But an unitialized array (where you specify size) will
- * be given space on the stack, and will automaticaly be pointing there.
  */
 #include <stdio.h>
 
