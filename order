@@ -87,6 +87,7 @@ malloc.c
 leak.c
 free.c
 realloc.c
+strlen.c
 strlen2.c
 memcopy.c
 linked-list.c
