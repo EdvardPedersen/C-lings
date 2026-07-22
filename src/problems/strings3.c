@@ -4,9 +4,6 @@
  * pointing to, and if we use 'sizeof' on the dereferenced pointer we will just
  * get the size of a single character. Instead we need to find out how many
  * characters there are and multiply it by the number of bytes per character.
- * The 'string.h' header luckely provides a function that will count the number
- * of characters until a zero terminator. Remark that it won't count the zero
- * terminator.
  *
  * This program wants to count the number of bytes a string uses in memory
  * including the zero terminator.
