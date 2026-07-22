@@ -42,6 +42,7 @@ fizzbuzz.c
 scope.c
 global.c
 braces2.c
+braces3.c
 zero.c
 function.c
 function2.c
@@ -49,8 +50,8 @@ main-function.c
 main-function2.c
 recursion.c
 variable-names3.c
-braces3.c
 braces4.c
+braces5.c
 varargs.c
 pointer.c
 pointer2.c
