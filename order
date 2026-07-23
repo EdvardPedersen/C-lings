@@ -67,6 +67,7 @@ pointer-arithmetic3.c
 struct.c
 struct2.c
 bitfield.c
+bitfield2.c
 struct-pointer.c
 union-enum.c
 goto.c
