@@ -1,5 +1,5 @@
 /*
- * The compiler can concatinate strings if you have two string literals right
+ * The compiler can concatenate strings if you have two string literals right
  * after each other, even on different lines.
  */
 #include <stdio.h>
