@@ -85,6 +85,7 @@ strings9.c
 converting.c
 types3.c
 for3.c
+strcat.c
 segments.c
 static.c
 malloc.c
