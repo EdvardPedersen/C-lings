@@ -37,6 +37,7 @@ while4.c
 while5.c
 for.c
 for2.c
+for3.c
 loop-control.c
 fizzbuzz.c
 scope.c
@@ -86,7 +87,7 @@ strings8.c
 strings9.c
 converting.c
 types3.c
-for3.c
+for4.c
 strcat.c
 segments.c
 static.c

@@ -1,17 +1,10 @@
 /*
- * The for loop is not limited to only counting. We can for example do as in the
- * code below. Here we iterate over a string, by first declaring a varible, 'c',
- * that we use to remember wher in string, but as a pointer instead of an index.
- * Then we check that the current character is not '\0', remember that each
- * string needs to end with a null terminator. Then we advance the pointer to
- * the next character. Pointers are just numbers so we can still do arithmetic
- * on them. This way we never have to care about the length of string.
+ * Printing the numbers from 0 to 10
  */
 #include <stdio.h>
 
 int main() {
-  char *string = "Hello, world!";
-  for (char *c = string; c != '\0'; c++) {
-    printf("%c\n", *c);
+  for (int i = 0; i <= 10;) {
+    printf("%d\n", i);
   }
 }
