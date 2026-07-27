@@ -47,6 +47,7 @@ braces3.c
 zero.c
 function.c
 function2.c
+function3.c
 main-function.c
 main-function2.c
 recursion.c
