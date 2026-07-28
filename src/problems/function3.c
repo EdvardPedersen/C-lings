@@ -1,14 +1,18 @@
 /*
- * Function need to be declared before being called. This can be done either by
- * defining it in the usual way, or by declaring it. E.g.: 'void
- * function_name();', then you can define it wherever you want.
+ * The return type of a function needs to match the returned type of the
+ * function.
+ *
+ * Void means nothing, i.e. a return type of void means it returns nothing
  */
+
 #include <stdio.h>
 
-int main() {
-  print_hello_world();
+void sum(int a, int b) {
+  return a + b;
 }
 
-void print_hello_world() {
-  printf("Hello World\n");
+int main() {
+  int s = sum(7, 2);
+
+  printf("7 + 8 = %d\n", s);
 }

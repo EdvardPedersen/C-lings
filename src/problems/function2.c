@@ -1,18 +1,30 @@
 /*
- * The return type of a function needs to match the returned type of the
- * function.
+ * We have created a program for calculating fibonacci
+ * numbers, which is a sequence of numbers where each number
+ * is the sum of the two preceeding numbers, starting with
+ * 0 and 1.
  *
- * Void means nothing, i.e. a return type of void means it returns nothing
+ * Since we want to have some idea of what is going on as
+ * we compute the numbers, we have created a function
+ * (my_function), which takes in two numbers, adds them,
+ * prints the result, and returns the result.
+ *
  */
 
 #include <stdio.h>
 
-void sum(int a, int b) {
-  return a + b;
+int my_function(int first, int second) {
+  int result = first + second;
+  printf("Function call result: %d\n", result);
 }
 
 int main() {
-  int s = sum(7, 2);
-
-  printf("7 + 8 = %d\n", s);
+  int a = 0;
+  int b = 1;
+  while (b < 100) {
+    int c = my_function(a, b);
+    a = b;
+    b = c;
+  }
+  return 0;
 }

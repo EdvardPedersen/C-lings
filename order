@@ -48,6 +48,7 @@ zero.c
 function.c
 function2.c
 function3.c
+function4.c
 main-function.c
 main-function2.c
 recursion.c
