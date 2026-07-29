@@ -7,6 +7,8 @@ unsigned.c
 const.c
 variables.c
 variables2.c
+variables3.c
+variables4.c
 variable-names.c
 operators.c
 operators2.c
