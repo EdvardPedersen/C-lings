@@ -76,6 +76,7 @@ bitfield.c
 bitfield2.c
 struct-pointer.c
 union-enum.c
+enum.c
 goto.c
 switch.c
 switch2.c
