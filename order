@@ -96,6 +96,7 @@ types3.c
 for4.c
 strcat.c
 segments.c
+segments2.c
 static.c
 malloc.c
 leak.c
