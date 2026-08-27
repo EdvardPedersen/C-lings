@@ -10,7 +10,7 @@ all: $(PROBLEM-FILES)
 init:
 	@mkdir -p problems
 	@mkdir -p $(BUILD)
-	python src/scripts/fix_order.py src/problems problems
+	python3 src/scripts/fix_order.py src/problems problems
 
 
 $(BUILD)/%.o: problems/%.c
